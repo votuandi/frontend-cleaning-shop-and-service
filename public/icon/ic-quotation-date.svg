@@ -1,0 +1,32 @@
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="g267">
+<g id="g269">
+<g id="Clip path group">
+<mask id="mask0_2357_9604" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="32">
+<g id="clipPath275">
+<path id="path273" d="M0.5 1.90735e-06H32.5V32H0.5V1.90735e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_2357_9604)">
+<g id="g271">
+<g id="g277">
+<path id="path279" d="M7.0625 25.375V29.125H31.5625V4.75H7.0625V10.375H31.5625" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g281">
+<path id="path283" d="M12.75 2.875V6.625" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g285">
+<path id="path287" d="M25.9375 2.875V6.625" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g289">
+<path id="path291" d="M19.3125 2.875V6.625" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g293">
+<path id="path295" d="M7.0625 10.375C7.0625 20.6875 1.4375 25.375 1.4375 25.375H25.9375C25.9375 25.375 31.5625 20.6875 31.5625 10.375" stroke="#999999" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.text-1-line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: word;
+}
+
+.text-2-line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: word;
+}
+
+.text-3-line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: word;
+}
+
+.text-4-line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  word-break: word;
+}
+
+.text-5-line {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  word-break: word;
+}
+
+.scrollableDiv {
+  overflow: auto; /* Make the content scrollable */
+}
+
+.scrollableDiv::-webkit-scrollbar {
+  width: 0; /* Set width to 0 to hide the scrollbar */
+  background: transparent; /* Set background to transparent to hide the scrollbar track */
+}
+
+.cms p,
+.cms * p {
+  font-size: 16px; /* Example font size for paragraphs */
+}
+
+.cms span,
+.cms * span {
+  font-size: 14px; /* Example font size for spans */
+}
+
+.cms h1,
+.cms * h1 {
+  font-size: 28px; /* Example font size for h1 */
+}
+
+.cms h2,
+.cms * h2 {
+  font-size: 24px; /* Example font size for h2 */
+}
+
+.cms h3,
+.cms * h3 {
+  font-size: 20px; /* Example font size for h3 */
+}
+
+.cms h4,
+.cms * h4 {
+  font-size: 18px; /* Example font size for h4 */
+}
+
+.cms h5,
+.cms * h5 {
+  font-size: 16px; /* Example font size for h5 */
+}
+
+.cms h6,
+.cms * h6 {
+  font-size: 14px; /* Example font size for h6 */
+}
+/* Lists */
+.cms ul,
+.cms * ul {
+  list-style-type: disc; /* Bullets for unordered lists */
+  margin-left: 20px; /* Example indentation */
+}
+
+.cms ol,
+.cms * ol {
+  list-style-type: decimal; /* Numbers for ordered lists */
+  margin-left: 20px; /* Example indentation */
+}
+
+.cms li,
+.cms * li {
+  font-size: 16px; /* Example font size for list items */
+}
+
+.cms a,
+.cms * a {
+  font-size: 16px; /* Example font size for links */
+  text-decoration: none; /* Remove default underline */
+  color: #007bff; /* Example link color */
+}
+
+.cms a:hover,
+.cms * a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #06455e inset !important;
+}

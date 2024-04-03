@@ -1,0 +1,1 @@
+export const tabNames = ['FRONTLINE_RECRUITMENT', 'OFFICE_RECRUITMENT']

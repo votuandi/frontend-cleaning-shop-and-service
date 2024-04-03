@@ -1,0 +1,1 @@
+export const tabNames = ['LATEST_PROMOTION', 'PAST_EVENTS']
